@@ -1,0 +1,2 @@
+# FAQs-section
+Praticing FAQs
