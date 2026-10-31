@@ -1,0 +1,20 @@
+.faqs h1{
+    color: brown;
+    background-color: blueviolet;
+    text-align: center;
+}
+.container h1{
+    display: flex;
+justify-content: space-evenly;
+}
+.question b{
+    margin-top: 2em;
+    margin: auto;
+}
+.answer{
+    display: none;
+    transition: all 0.3s ease;
+}
+.question:hover .answer{
+    display: block;
+}
