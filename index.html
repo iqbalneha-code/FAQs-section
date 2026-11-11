@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <div class="faqs container">
+    <!-- <div class="faqs container">
         <h1>Questions founders ask before they switch</h1>
         <div class="  question">
             <b>Q-1 Will it sound like me ?   <i class="fa-solid fa-plus" ></i></b>
@@ -59,10 +59,10 @@
                     where you edit it or tell Twin what to change. Twin learns from each edit, so drafts sound more like
                     you every week. Switch to auto only when you trust it.</p>
             </div>
-        </div>
+        </div> -->
 
 
-        <div class="  question">
+        <!-- <div class="  question">
             <b>Q-6 Will it sound like me ? <i class="fa-solid fa-plus" ></i></b>
             <div class="answer">
                 <p class="para">Nothing goes out without you. Every email, post and reply lands in a review queue first,
@@ -73,17 +73,138 @@
 
 
     </div>
+ -->
+
+<!-- ///////////////////faq 1 //////////// -->
+
+<div class="accordion">
+  <details class="accordion-item" name="accordionExample" open>
+    <summary class="accordion-header">
+      Accordion Item #1
+      <svg class="accordion-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m2 5 6 6 6-6"/></svg>
+    </summary>
+    <div class="accordion-body">
+      <strong>This is the first item’s accordion body.</strong> It is shown by default because the <code>open</code> attribute is present. The native <code>&lt;details&gt;</code> element handles all the show/hide logic without any JavaScript. You can put any HTML content within the <code>.accordion-body</code>.
+    </div>
+  </details>
+  <details class="accordion-item" name="accordionExample">
+    <summary class="accordion-header">
+      Accordion Item #2
+      <svg class="accordion-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m2 5 6 6 6-6"/></svg>
+    </summary>
+    <div class="accordion-body">
+      <strong>This is the second item’s accordion body.</strong> The <code>name</code> attribute groups this with other accordion items. When you open this item, any other open item in the same group will close automatically.
+    </div>
+  </details>
+  <details class="accordion-item" name="accordionExample">
+    <summary class="accordion-header">
+      Accordion Item #3
+      <svg class="accordion-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m2 5 6 6 6-6"/></svg>
+    </summary>
+    <div class="accordion-body">
+      <strong>This is the third item’s accordion body.</strong> This exclusive accordion behavior is built into the browser—no Bootstrap JavaScript required. Just use matching <code>name</code> attributes on your <code>&lt;details&gt;</code> elements.
+    </div>
+  </details>
+</div>
+<hr><br><br><br><br><br>
+
+<!-- ///////////////faq 2 nested////////////// -->
+<div class="accordion">
+  <details class="accordion-item" name="accordionNested" open>
+    <summary class="accordion-header">
+      Accordion Item #1
+      <svg class="accordion-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m2 5 6 6 6-6"/></svg>
+    </summary>
+    <div class="accordion-body">
+      <strong>This is the first item’s accordion body.</strong> It contains a nested accordion below.
+      <div class="accordion mt-3">
+        <details class="accordion-item" name="accordionNestedInner" open>
+          <summary class="accordion-header">
+            Nested Item #1
+            <svg class="accordion-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m2 5 6 6 6-6"/></svg>
+          </summary>
+          <div class="accordion-body">
+            This is the body of the first nested accordion item.
+          </div>
+        </details>
+        <details class="accordion-item" name="accordionNestedInner">
+          <summary class="accordion-header">
+            Nested Item #2
+            <svg class="accordion-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m2 5 6 6 6-6"/></svg>
+          </summary>
+          <div class="accordion-body">
+            This is the body of the second nested accordion item.
+          </div>
+        </details>
+        <details class="accordion-item" name="accordionNestedInner">
+          <summary class="accordion-header">
+            Nested Item #3
+            <svg class="accordion-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m2 5 6 6 6-6"/></svg>
+          </summary>
+          <div class="accordion-body">
+            This is the body of the third nested accordion item.
+          </div>
+        </details>
+      </div>
+    </div>
+  </details>
+  <details class="accordion-item" name="accordionNested">
+    <summary class="accordion-header">
+      Accordion Item #2
+      <svg class="accordion-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m2 5 6 6 6-6"/></svg>
+    </summary>
+    <div class="accordion-body">
+      <strong>This is the second item’s accordion body.</strong> It does not contain a nested accordion.
+    </div>
+  </details>
+  <details class="accordion-item" name="accordionNested">
+    <summary class="accordion-header">
+      Accordion Item #3
+      <svg class="accordion-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m2 5 6 6 6-6"/></svg>
+    </summary>
+    <div class="accordion-body">
+      <strong>This is the third item’s accordion body.</strong> It does not contain a nested accordion.
+    </div>
+  </details>
+</div>
+<hr><br><br><br><br><br>
+
+<!-- //////////////////faq 3/////////////////////// -->
 
 
 
+<br><br><br><br><br>
+<button type="button" class="btn-subtle btn-sm theme-secondary mb-3" id="btnAccordionToggleAll" aria-expanded="false">Expand all</button>
 
-
-
-
-
-
-
-
+<div class="accordion accordion-sm" id="accordionExpandCollapse">
+  <details class="accordion-item" name="accordionExpandCollapse" open>
+    <summary class="accordion-header">
+      Accordion Item #1
+      <svg class="accordion-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m2 5 6 6 6-6"/></svg>
+    </summary>
+    <div class="accordion-body">
+      <strong>This is the first item’s accordion body.</strong> Use Expand all to open every item, even when they share a <code>name</code>.
+    </div>
+  </details>
+  <details class="accordion-item" name="accordionExpandCollapse">
+    <summary class="accordion-header">
+      Accordion Item #2
+      <svg class="accordion-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m2 5 6 6 6-6"/></svg>
+    </summary>
+    <div class="accordion-body">
+      <strong>This is the second item’s accordion body.</strong> Collapse all closes every item and restores exclusive <code>name</code> grouping.
+    </div>
+  </details>
+  <details class="accordion-item" name="accordionExpandCollapse">
+    <summary class="accordion-header">
+      Accordion Item #3
+      <svg class="accordion-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m2 5 6 6 6-6"/></svg>
+    </summary>
+    <div class="accordion-body">
+      <strong>This is the third item’s accordion body.</strong> If your accordion has no <code>name</code>, you only need to set <code>open</code> on each item.
+    </div>
+  </details>
+</div>
 
 
 
